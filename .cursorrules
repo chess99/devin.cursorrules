@@ -1,13 +1,16 @@
 # Instructions
 
-During you interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+This file contains long-term knowledge and lessons learned during the development process. For temporary task planning and progress tracking, please use the `.scratchpad` file (which is ignored by git).
 
-You should also use the `.cursorrules` file as a scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
-[X] Task 1
-[ ] Task 2
-Also update the progress of the task in the Scratchpad when you finish a subtask.
-Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the scratchpad to reflect and plan.
-The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+During your interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again.
+
+For temporary task planning and progress tracking:
+- Use the `.scratchpad` file (which is ignored by git)
+- When you receive a new task, first review and clear old tasks if necessary
+- Plan the steps needed to complete the task
+- Use todo markers to track progress (e.g., [X] Done, [ ] Todo)
+- Update progress when finishing subtasks
+- Use it to maintain the big picture and reflect on milestones
 
 # Tools
 
@@ -55,6 +58,7 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - For web scraping in China, use HTTP proxy environment variable (http_proxy) to bypass GFW.
 - No need for separate LLM API when Cursor's built-in capabilities are sufficient.
 - Consider using Defy API for additional LLM capabilities when needed.
+- Use .scratchpad (git-ignored) for temporary task planning and progress tracking.
 
 ## Cursor learned
 

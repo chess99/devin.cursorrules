@@ -15,6 +15,10 @@ __pycache__/
 # Logs
 *.log
 
+# Temporary files
+.scratchpad
+*.tmp
+
 # OS generated files
 .DS_Store
 .DS_Store?
