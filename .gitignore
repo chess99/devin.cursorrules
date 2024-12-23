@@ -16,7 +16,7 @@ __pycache__/
 *.log
 
 # Temporary files
-.scratchpad
+.cursor-scratchpad
 *.tmp
 
 # OS generated files
