@@ -52,6 +52,9 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - Include info useful for debugging in the program output.
 - Read the file before you try to edit it.
 - Use LLM to perform flexible text understanding tasks. First test on a few files. After success, make it parallel.
+- For web scraping in China, use HTTP proxy environment variable (http_proxy) to bypass GFW.
+- No need for separate LLM API when Cursor's built-in capabilities are sufficient.
+- Consider using Defy API for additional LLM capabilities when needed.
 
 ## Cursor learned
 
@@ -59,5 +62,8 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - For search results, ensure proper handling of different character encodings (UTF-8) for international queries
 - Add debug information to stderr while keeping the main output clean in stdout for better pipeline integration
 - When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- Use environment variables for configuration that might vary between environments (e.g., proxy settings)
+- Keep the codebase clean by properly configuring .gitignore to exclude virtual environments and other non-source files
 
 # Scratchpad
+
